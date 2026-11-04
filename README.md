@@ -8,11 +8,11 @@ A preprocessor processes source code before compilation. This project demonstrat
 
 ✨ Features
 
-- Comment Removal:** Removes single-line (`//`) and multi-line (`/* ... */`) comments.
-- File Inclusion:** Processes header file inclusion using `#include`.
-- Macro Processing:** Supports basic object-like macro definitions using `#define`.
-- File Generation:** Generates an output `.i` file after preprocessing.
-- Modular Programming:** Uses separate `.c` and `.h` files for different operations.
+- Comment Removal: Removes single-line (`//`) and multi-line (`/* ... */`) comments.
+- File Inclusion: Processes header file inclusion using `#include`.
+- Macro Processing: Supports basic object-like macro definitions using `#define`.
+- File Generation: Generates an output `.i` file after preprocessing.
+- Modular Programming: Uses separate `.c` and `.h` files for different operations.
 
  🛠️ Technologies Used
 
