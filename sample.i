@@ -852,7 +852,7 @@ extern void funlockfile (FILE *__stream) __THROW;
 __END_DECLS
 
 #endif /* <stdio.h> included.  */
-int a=10;
+#include "myheader.h"
 
 int main()
 {

@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "file_inclusion.h"
+#include "header.h"
 
 void file_inclusion(FILE *fp, FILE *out)
 {

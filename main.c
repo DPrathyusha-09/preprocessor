@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "comment_removal.h"
-#include "file_inclusion.h"
-#include "macro.h"
+#include "header.h"
 
 int main(int argc, char *argv[])
 {

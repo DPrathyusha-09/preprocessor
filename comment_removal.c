@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "comment_removal.h"
+#include "header.h"
 
 void remove_comments(FILE *fp, FILE *out)
 {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "macro.h"
+#include "header.h"
 
 void macro_handler(FILE *fp, FILE *out)
 {
@@ -14,7 +14,7 @@ void macro_handler(FILE *fp, FILE *out)
     {
         if(strncmp(line, "#define", 7) == 0)
         {
-            if(sscanf(line, "#define %49s %99[^\n]", name, value) == 2)
+            if(sscanf(line, "#define %s %[^\n]", name, value) == 2)
             {
                 strcpy(macros[count], name);
                 strcpy(values[count], value);
