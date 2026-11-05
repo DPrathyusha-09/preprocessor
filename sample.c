@@ -1,5 +1,9 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include "header.h"
+=======
+#include "student.h"
+>>>>>>> c preprocessor project
 #define PI 3.14
 //hello
 int main()
