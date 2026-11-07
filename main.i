@@ -1,26 +1,17 @@
 #include <stdio.h>
 #include <string.h>
-#ifndef COMMENT_REMOVAL_H
 
 #include <stdio.h>
 
 void remove_comments(FILE *fp, FILE *out);
 
-#endif
-#ifndef FILE_INCLUSION_H
-
 #include <stdio.h>
 
 void file_inclusion(FILE *fp, FILE *out);
 
-#endif
-#ifndef MACRO_HANDLER_H
-
 #include <stdio.h>
 
 void macro_handler(FILE *fp, FILE *out);
-
-#endif
 
 int main(int argc, char *argv[])
 {
